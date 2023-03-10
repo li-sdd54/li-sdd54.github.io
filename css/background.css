@@ -1,0 +1,145 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body.body_background {
+    /* background-color: #ffefefa1; */
+    background-color: #f5ebe0cc;
+}
+
+/* https://colorhunt.co/palette/fefcf3f5ebe0f0dbdbdba39a det er til alle farverne på hjemmesiden */
+/* ---------------------- Nav Bar ---------------------- */
+/* logo */
+a img.navbar_logo {
+    width: 3rem;
+    height: 3rem;
+
+    margin-left: 3.4rem !important;
+}
+
+/* --------- header --------- */
+nav,
+nav div a,
+nav div {
+    background-color: #FEFCF3;
+    /*F5EBE0*/
+}
+
+/* navbar icon */
+/*De skal laves om!!!!!!! https://www.youtube.com/watch?v=45QSuJaHEss*/
+span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox= '0 0 30 30'%3e%3cpath stroke='rgba%28219, 163, 154, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    /* background-color: rgb(60 28 224); */
+}
+
+button.navbar-toggler {
+    border: 1px solid #DBA39A;
+    color: #DBA39A;
+    /*F5EBE0*/
+}
+
+/* Det er til ul li text i navbar for at center det */
+@media (min-width: 992px) {
+    nav.navbar div div.me-lg-5 {
+        margin-right: 6rem !important;
+    }
+}
+
+/* .navbar-toggler{
+    color: #DBA39A!important;
+} */
+
+.text_a {
+    color: #676767;
+}
+
+/* Header and navbar */
+ul li a:hover,
+.navbar_logo:hover {
+    background-color: #F5EBE0;
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+}
+
+/* navbar-toggler-icon Det skal jeg lave til whilt */
+
+
+
+
+/* ---------------------- page concenten ---------------------- */
+.body_background,
+.carousel-inner h4 {
+    color: #676767;
+}
+
+
+/* carousel images */
+.carousel_images {
+    height: 25rem;
+}
+
+/* card */
+@media (min-width: 768px) {
+    div.concenten div.row .mb-md-5 {
+        margin-bottom: 2rem !important;
+    }
+
+    div.card img.card_height {
+        height: 3rem;
+    }
+}
+
+
+div.card img.card_height {
+    height: 24rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 17rem;
+}
+
+/* btn */
+a.new_color {
+    background-color: #DBA39A;
+    border: none;
+}
+
+a.new_color:hover {
+    background-color: #F5EBE0;
+    border: none;
+    color: #676767;
+}
+
+/* ---------------------- footer ---------------------- */
+.footer_background,
+.footer_background footer div div h5 {
+    background-color: #FEFCF3;
+}
+
+@media (min-width: 1400px) {
+    footer div div.ps-xxl-5 {
+        padding-left: 8rem !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    footer div div.ps-xl-5 {
+        padding-left: 8rem !important;
+    }
+}
+
+.text_footer {
+    /* color: black; */
+    color: #676767;
+}
+
+/* copyright */
+.copyright_background {
+    background-color: #f5ebe082;
+}
